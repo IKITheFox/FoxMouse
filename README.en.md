@@ -1,6 +1,13 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/branding/source/foxmouse-mark-dark.png">
+    <img src="assets/branding/source/foxmouse-mark-color.png" width="180" alt="FoxMouse logo">
+  </picture>
+</p>
+
 # FoxMouse
 
-English | [简体中文](README.md)
+English | [简体中文](README.zh-CN.md)
 
 **v1.0.0 Beta** · [Issues](https://github.com/IKITheFox/FoxMouse/issues) · [Changelog](CHANGELOG.md)
 
