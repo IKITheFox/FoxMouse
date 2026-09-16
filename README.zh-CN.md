@@ -9,7 +9,7 @@
 
 简体中文 | [English](README.md)
 
-**v1.0.0 Beta** · [问题反馈](https://github.com/IKITheFox/FoxMouse/issues) · [更新记录](CHANGELOG.md) · [贡献指南](CONTRIBUTING.md) · [安全政策](SECURITY.md)
+**v1.0.0 Beta** · [下载](https://github.com/IKITheFox/FoxMouse/releases/latest) · [问题反馈](https://github.com/IKITheFox/FoxMouse/issues) · [更新记录](CHANGELOG.md) · [贡献指南](CONTRIBUTING.md) · [安全政策](SECURITY.md)
 
 Windows 光标定位工具：摇一摇，让光标平滑放大，再自然恢复。
 

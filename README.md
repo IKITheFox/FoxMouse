@@ -9,7 +9,7 @@
 
 English | [简体中文](README.zh-CN.md)
 
-**v1.0.0 Beta** · [Issues](https://github.com/IKITheFox/FoxMouse/issues) · [Changelog](CHANGELOG.md)
+**v1.0.0 Beta** · [Download](https://github.com/IKITheFox/FoxMouse/releases/latest) · [Issues](https://github.com/IKITheFox/FoxMouse/issues) · [Changelog](CHANGELOG.md)
 
 A Windows tray utility that helps locate the pointer by enlarging it during rapid back-and-forth movement, then smoothly restoring its size.
 
