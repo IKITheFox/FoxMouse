@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">FoxMouse monochrome logo</title>
+  <desc id="desc">A minimal fox in motion combined with a mouse cursor and dispersing pixels.</desc>
+  <defs>
+    <mask id="cursor-gap" maskUnits="userSpaceOnUse" x="0" y="0" width="512" height="512">
+      <rect width="512" height="512" fill="#fff"/>
+      <path d="m284 247 148 56-61 20 42 59-44 31-41-60-46 43 2-149Z" fill="#000" stroke="#000" stroke-width="10" stroke-linejoin="round"/>
+    </mask>
+  </defs>
+  <g fill="#1B1B1B" mask="url(#cursor-gap)">
+    <path d="M50 266 116 226c17-28 36-52 65-69l68-101 6 89 76-41-21 80c34 20 60 45 78 76-18-7-37-11-57-12l25 31-77-22 28 39c-46-14-87-20-123-17-40 3-72 27-108 29-12-9-20-23-26-42Z"/>
+    <path d="M247 293c45-2 75 15 81 45 8 36-22 74-88 95 30-27 45-55 43-83-2-25-14-44-36-57Z"/>
+  </g>
+  <g fill="#1B1B1B">
+    <path d="m284 247 148 56-61 20 42 59-44 31-41-60-46 43 2-149Z"/>
+    <rect x="382" y="156" width="25" height="25"/>
+    <rect x="337" y="187" width="31" height="31"/>
+    <rect x="391" y="220" width="27" height="27"/>
+    <rect x="447" y="203" width="15" height="15"/>
+    <rect x="432" y="260" width="13" height="13"/>
+  </g>
+</svg>

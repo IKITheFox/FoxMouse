@@ -1,0 +1,95 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.26100.0</TargetFramework>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+    <RootNamespace>FoxMouse.Settings</RootNamespace>
+    <AssemblyName>FoxMouse.Settings</AssemblyName>
+    <Product>FoxMouse Settings</Product>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>..\..\assets\branding\generated\FoxMouse.ico</ApplicationIcon>
+    <RuntimeIdentifier Condition="'$(RuntimeIdentifier)' == ''">win-x64</RuntimeIdentifier>
+    <Platforms>x64</Platforms>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseWinUI>true</UseWinUI>
+    <WinUISDKReferences>false</WinUISDKReferences>
+    <WindowsPackageType>None</WindowsPackageType>
+    <DefaultLanguage>zh-CN</DefaultLanguage>
+    <WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
+    <SelfContained>true</SelfContained>
+    <EnableMsixTooling>false</EnableMsixTooling>
+    <DisableMsixProjectCapabilityAddedByProject>true</DisableMsixProjectCapabilityAddedByProject>
+    <DefineConstants>$(DefineConstants);DISABLE_XAML_GENERATED_MAIN</DefineConstants>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PublishTrimmed>false</PublishTrimmed>
+    <PublishSingleFile>false</PublishSingleFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Manifest Include="$(ApplicationManifest)" />
+    <Content Include="..\..\assets\branding\generated\FoxMouse.ico" Link="Assets\FoxMouse.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="..\..\assets\branding\source\foxmouse-mark-color.png" Link="Assets\Branding\FoxMouse.Mark.Light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="..\..\assets\branding\source\foxmouse-mark-dark.png" Link="Assets\Branding\FoxMouse.Mark.Dark.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="..\..\assets\branding\source\foxmouse-mark-mono-black.png" Link="Assets\Branding\FoxMouse.Mark.HighContrast.Black.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="..\..\assets\branding\source\foxmouse-mark-mono-white.png" Link="Assets\Branding\FoxMouse.Mark.HighContrast.White.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.28000.2705" />
+    <!-- Match the 2.4.0 release's component versions without unused AI/ML/Search/Widgets. -->
+    <PackageReference Include="Microsoft.WindowsAppSDK.WinUI" Version="2.3.6" />
+    <PackageReference Include="Microsoft.WindowsAppSDK.InteractiveExperiences" Version="2.1.6" />
+    <PackageReference Include="Microsoft.WindowsAppSDK.Runtime" Version="2.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FoxMouse.Core\FoxMouse.Core.csproj" />
+    <ProjectReference Include="..\FoxMouse.Platform.Windows\FoxMouse.Platform.Windows.csproj" />
+  </ItemGroup>
+
+  <!--
+    The unpackaged WinUI build places the application PRI and compiled XAML
+    beside the apphost, but Windows App SDK 2.4 does not copy those
+    project-specific files when PublishDir points outside bin/. Without them a
+    portable build starts and then fails MainWindow.InitializeComponent with
+    XAML_E_PARSE_FAILED. Keep the publish payload equivalent to the runnable
+    build output and preserve page subdirectories.
+  -->
+  <Target Name="CopyFoxMouseXamlPayloadToPublish" AfterTargets="Publish">
+    <Error
+      Condition="!Exists('$(TargetDir)FoxMouse.Settings.pri')"
+      Text="FoxMouse.Settings.pri was not generated; refusing to publish an incomplete WinUI host." />
+    <Copy
+      SourceFiles="$(TargetDir)FoxMouse.Settings.pri"
+      DestinationFolder="$(PublishDir)"
+      SkipUnchangedFiles="true" />
+    <ItemGroup>
+      <_FoxMouseCompiledXaml
+        Include="$(TargetDir)**\*.xbf"
+        Exclude="$(TargetDir)publish\**\*.xbf" />
+    </ItemGroup>
+    <Error
+      Condition="'@(_FoxMouseCompiledXaml)' == ''"
+      Text="Compiled FoxMouse Settings XAML was not generated; refusing to publish an incomplete WinUI host." />
+    <Copy
+      SourceFiles="@(_FoxMouseCompiledXaml)"
+      DestinationFiles="@(_FoxMouseCompiledXaml->'$(PublishDir)%(RecursiveDir)%(Filename)%(Extension)')"
+      SkipUnchangedFiles="true" />
+  </Target>
+</Project>

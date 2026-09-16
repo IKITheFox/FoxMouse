@@ -1,0 +1,365 @@
+{
+  "schema": "foxmouse.branding/1",
+  "product": "FoxMouse",
+  "source": "user-selected-logo-kit",
+  "colors": {
+    "orange": "#F26A2E",
+    "nearBlack": "#1B1B1B",
+    "darkForeground": "#FFFFFF"
+  },
+  "iconSizes": [
+    16,
+    20,
+    24,
+    32,
+    48,
+    64,
+    128,
+    256
+  ],
+  "files": [
+    {
+      "path": "generated/FoxMouse.Dark.ico",
+      "bytes": 18066,
+      "sha256": "b37f338a4e6ec44128ffaf75729c973cdd3a7f006d41813e16c151ae77e477fd"
+    },
+    {
+      "path": "generated/FoxMouse.HighContrast.Black.ico",
+      "bytes": 13949,
+      "sha256": "c8ce9c9ded5d6a51f20dd40a6e371ec1d8280aa13fcf8be491aa9acb2d60345f"
+    },
+    {
+      "path": "generated/FoxMouse.HighContrast.White.ico",
+      "bytes": 11464,
+      "sha256": "cdf00234f81b2a8f50f18bb4d4411d541fcf0cd0ecedfe63bf8790896caeabcf"
+    },
+    {
+      "path": "generated/FoxMouse.ico",
+      "bytes": 14673,
+      "sha256": "befbedaa436ec8a1ac41b7256f1c4428f4ae1401f6315bba1d3757f83a927f9a"
+    },
+    {
+      "path": "generated/icons/dark/foxmouse-128.png",
+      "bytes": 3862,
+      "sha256": "52e9992f59282e1360d0795e3db884b31a906c71f05e06950056a46a5ecca5d1",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "generated/icons/dark/foxmouse-16.png",
+      "bytes": 473,
+      "sha256": "ea12cfca26c4f897799537cdba3312d7d8fa182abcc9c362aeffdccde6ffec2f",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "generated/icons/dark/foxmouse-20.png",
+      "bytes": 595,
+      "sha256": "a11e0f5971212cfc0beee5dbcf74fdca7680d5b5a429c06ce58305bbe2261414",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "path": "generated/icons/dark/foxmouse-24.png",
+      "bytes": 695,
+      "sha256": "30ea0a2de1e36f7a7dc461e439e0b1070a909d31076c06a20c1cd79f49bffef8",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "generated/icons/dark/foxmouse-256.png",
+      "bytes": 8025,
+      "sha256": "f336e388675fdd1947dd7aa0f71cabb31414be836d29d28503b234bb27c5b67c",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "generated/icons/dark/foxmouse-32.png",
+      "bytes": 941,
+      "sha256": "530af940d4db6019f4f27555274ff1f170a4635bf4c875ee1f2f2332ab6c77f4",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "generated/icons/dark/foxmouse-48.png",
+      "bytes": 1440,
+      "sha256": "4ab2fe0c46c784bebbecec00dc4c79388ff085245f87c621b2370faa0e3cf915",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "generated/icons/dark/foxmouse-64.png",
+      "bytes": 1901,
+      "sha256": "c387b44205d157742ce31bce0154825e9c55ce70b759aadf6b3ca118ef4758e3",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "generated/icons/high-contrast-black/foxmouse-128.png",
+      "bytes": 2942,
+      "sha256": "fe050898ded90e6204eae2ae2a7663c86c0bed3331fa176128ccc79292fcd80f",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "generated/icons/high-contrast-black/foxmouse-16.png",
+      "bytes": 397,
+      "sha256": "a18543d30f37376a8c0c480e3f4596ddd339cf2bb595b2be8a6822786b38ecd5",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "generated/icons/high-contrast-black/foxmouse-20.png",
+      "bytes": 474,
+      "sha256": "6d43c4e42d890611dfc4d130148a43dd594124375e1055e0a425d76b552d76b7",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "path": "generated/icons/high-contrast-black/foxmouse-24.png",
+      "bytes": 574,
+      "sha256": "3b2d1873b5862297330dce08ae8122a11e083cb0b356c76dd8bdbb07a3f2680c",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "generated/icons/high-contrast-black/foxmouse-256.png",
+      "bytes": 6107,
+      "sha256": "bfcec8d90b731e3880fba8d92d55f2e2a32ee6b9d0592e01c04d21bf374e8acb",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "generated/icons/high-contrast-black/foxmouse-32.png",
+      "bytes": 728,
+      "sha256": "1738da09ce7c0e76e9aa23d68d507155a5b86224a152aca8c15fa50bffd22c3c",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "generated/icons/high-contrast-black/foxmouse-48.png",
+      "bytes": 1119,
+      "sha256": "8d02d2b7438ea76d10c7b2398e65229064b406fac8fedf845fa744cb27959404",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "generated/icons/high-contrast-black/foxmouse-64.png",
+      "bytes": 1474,
+      "sha256": "d9c481cdda9d892817025ed2c60f5822ed978e8f033e46d34ef0e9566ab01465",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "generated/icons/high-contrast-white/foxmouse-128.png",
+      "bytes": 2418,
+      "sha256": "e6afc36075b4224e827eef86df71676bb0f4073c80a2b44ba53281eaac6a9f18",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "generated/icons/high-contrast-white/foxmouse-16.png",
+      "bytes": 333,
+      "sha256": "917ff89422f865a4290b44e23b07aa2f3170e960bf46b922537dd50c4501d7fc",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "generated/icons/high-contrast-white/foxmouse-20.png",
+      "bytes": 410,
+      "sha256": "ecae7d58db72bce17fc96e90562a216490e70a2f411a3b3b863f424978438146",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "path": "generated/icons/high-contrast-white/foxmouse-24.png",
+      "bytes": 465,
+      "sha256": "ce2f34991dc0306df684df60845e1316088de2a69cef916205c35b6c7cb24b48",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "generated/icons/high-contrast-white/foxmouse-256.png",
+      "bytes": 4987,
+      "sha256": "2bd765298f641c587ae13e0d2e704cf1ea5a3be526c08f02021d03d235706a89",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "generated/icons/high-contrast-white/foxmouse-32.png",
+      "bytes": 593,
+      "sha256": "fdfd4f3a13344e11238a3dd7b7f3ac1744b5d5129d81f461be64527fa3ac4a11",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "generated/icons/high-contrast-white/foxmouse-48.png",
+      "bytes": 913,
+      "sha256": "8e7fd82525e9a32e2367a59511b6a9481cb0c058a136fccb6907dbc04353d21b",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "generated/icons/high-contrast-white/foxmouse-64.png",
+      "bytes": 1211,
+      "sha256": "cd71379d30db1ba9535d391b7c000a20ec95ba096f2dae9258b55d94d4db58f7",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "generated/icons/light/foxmouse-128.png",
+      "bytes": 2914,
+      "sha256": "03879d041469d81716e34c5315cd395fdbf5cc7ebdd1b2dfdec4a57a37f37e35",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "generated/icons/light/foxmouse-16.png",
+      "bytes": 443,
+      "sha256": "19864f766b03fee4dc2ca58eaf61e7978b4e0cf0d728da1bc36b422c3c504d15",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "generated/icons/light/foxmouse-20.png",
+      "bytes": 619,
+      "sha256": "01027fdbc550f8660bc3493dfcc34dbfe971b624596b98ad3b9991e4952418ff",
+      "width": 20,
+      "height": 20
+    },
+    {
+      "path": "generated/icons/light/foxmouse-24.png",
+      "bytes": 719,
+      "sha256": "f160b646186677c9820c012c285d893cc6454a29ba6cedd13e9e168a3c0bd86a",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "generated/icons/light/foxmouse-256.png",
+      "bytes": 6028,
+      "sha256": "5b1adb35d2467660a5f6f932081b7eb7f4cd2dd09b176b4602c69a2673a68dc0",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "generated/icons/light/foxmouse-32.png",
+      "bytes": 786,
+      "sha256": "8050ac8913d1e10677f9ea2627115539af5d2876ac254b3610890a50a264795e",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "generated/icons/light/foxmouse-48.png",
+      "bytes": 1496,
+      "sha256": "d852445ad756fa03c47cbb610190177be706c8028c5d82495653a1e10bf59cb6",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "generated/icons/light/foxmouse-64.png",
+      "bytes": 1534,
+      "sha256": "156bb7f4af333bec4ec273a8cf7766694bf3707ac11af4806348664be4b8e8a8",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "source/foxmouse-lockup-color.png",
+      "bytes": 76772,
+      "sha256": "65d9030e2a5ba9523d390b086e109ae8e525580e7bd035adad7ca44ed92c744a",
+      "width": 2095,
+      "height": 336
+    },
+    {
+      "path": "source/foxmouse-lockup-dark.png",
+      "bytes": 76811,
+      "sha256": "9c8b91d1e125407a728680844be3713b04251e6786aa584756ee62431e7ee791",
+      "width": 2095,
+      "height": 336
+    },
+    {
+      "path": "source/foxmouse-mark-color.png",
+      "bytes": 35102,
+      "sha256": "22cb9982c6c6681b941bcd4b1453b6a02aa362082f9eb0278a909aab15291e9a",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "source/foxmouse-mark-dark.png",
+      "bytes": 34892,
+      "sha256": "c301eda330f0ba508de9ab7cae69f520389962add02f1b46df1d84eae95b5358",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "source/foxmouse-mark-mono-black.png",
+      "bytes": 32854,
+      "sha256": "75d5476f923ca651f5745733accace5a8f2693f9bea8ba18a6eeb53044107c79",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "source/foxmouse-mark-mono-white.png",
+      "bytes": 31172,
+      "sha256": "7573b736c83778c754d2d8472295ca10e72cfe09bdd6428edfeccac5c04a1e6e",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "source/foxmouse-mark-mono.svg",
+      "bytes": 1297,
+      "sha256": "761ae23b6289edb240d06f3bfbe00c9ce3038f3d1d1cf257a755b9d9e57938a4"
+    },
+    {
+      "path": "source/foxmouse-mark.svg",
+      "bytes": 962,
+      "sha256": "f8272db99d9ab941d9d66dbfab60e3ad057b729c0f5b60cf860e89065057334b"
+    },
+    {
+      "path": "source/foxmouse.ico",
+      "bytes": 11063,
+      "sha256": "bb39e9e5a237c2fd30d8eaeab468f8f0a415772d45576c4b713f983102859c21"
+    },
+    {
+      "path": "source/icons/foxmouse-icon-128.png",
+      "bytes": 2519,
+      "sha256": "3332b91af350a67afd28f6d06e83963578ab0b169ba998f584d1cdd077dc665c",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "source/icons/foxmouse-icon-16.png",
+      "bytes": 361,
+      "sha256": "e3e15e285a6e2eaaed5a47be38ce67b9fb5db3eae63bdf4f8b627098652ff9eb",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "source/icons/foxmouse-icon-256.png",
+      "bytes": 5268,
+      "sha256": "16a5710ce5c81cdec5c65b9fa1b12879bb4f65c0c4dbcc9e6401eb40c8666d9e",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "source/icons/foxmouse-icon-32.png",
+      "bytes": 644,
+      "sha256": "6d46b9927c21f1f44aed2fe61ad068f4bf44416e1550b3ffb446dde64d16598f",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "source/icons/foxmouse-icon-512.png",
+      "bytes": 11854,
+      "sha256": "311569b14d4d66e1873b4838edbf19d5bdb5209141e9b110cb8d82ec67833f05",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "source/icons/foxmouse-icon-64.png",
+      "bytes": 1278,
+      "sha256": "f5eafc8954d80f1c79c5019afcd0dd37f71efea5fd8781e3206f290a8148c99f",
+      "width": 64,
+      "height": 64
+    }
+  ]
+}

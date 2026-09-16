@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/FoxMouse.Core/FoxMouse.Core.csproj" />
+    <Project Path="src/FoxMouse.Deployment/FoxMouse.Deployment.csproj" />
+    <Project Path="src/FoxMouse.Platform.Windows/FoxMouse.Platform.Windows.csproj" />
+    <Project Path="src/FoxMouse.App/FoxMouse.App.csproj" />
+    <Project Path="src/FoxMouse.Guard/FoxMouse.Guard.csproj" />
+    <Project Path="src/FoxMouse.Settings/FoxMouse.Settings.csproj" />
+    <Project Path="src/FoxMouse.Setup/FoxMouse.Setup.csproj" />
+    <Project Path="src/FoxMouse.TraceTool/FoxMouse.TraceTool.csproj" />
+    <Project Path="src/FoxMouse.Uninstall/FoxMouse.Uninstall.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/FoxMouse.Core.Tests/FoxMouse.Core.Tests.csproj" />
+    <Project Path="tests/FoxMouse.Deployment.Tests/FoxMouse.Deployment.Tests.csproj" />
+    <Project Path="tests/FoxMouse.Platform.Windows.Tests/FoxMouse.Platform.Windows.Tests.csproj" />
+    <Project Path="tests/FoxMouse.Settings.Tests/FoxMouse.Settings.Tests.csproj" />
+    <Project Path="tests/FoxMouse.Platform.Windows.Tests/FakeGuardLauncher/FoxMouse.FakeGuardLauncher.csproj" />
+  </Folder>
+</Solution>

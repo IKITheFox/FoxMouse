@@ -1,0 +1,9 @@
+{
+  "schema": "foxmouse.expect/1",
+  "config": "default-v1",
+  "trigger_count": 1,
+  "first_trigger_us": { "min": 120000, "max": 140000 },
+  "release_by_us": 600000,
+  "max_score": { "min": 0.95, "max": 1.0 },
+  "never_active_while_buttons_nonzero": true
+}

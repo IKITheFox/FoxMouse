@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows10.0.17763.0</TargetFramework>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseWindowsForms>true</UseWindowsForms>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.4" />
+    <PackageReference Include="coverlet.collector" Version="6.0.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Xunit" />
+    <Compile Include="..\..\installer\BootstrapDependencyPolicy.cs" Link="BootstrapDependencyPolicy.cs" />
+    <Compile Include="..\..\installer\BootstrapDownloader.cs" Link="BootstrapDownloader.cs" />
+    <Compile Include="..\..\installer\BootstrapInventory.cs" Link="BootstrapInventory.cs" />
+    <Compile Include="..\..\installer\BootstrapBundle.cs" Link="BootstrapBundle.cs" />
+    <Compile Include="..\..\installer\BootstrapProgram.cs" Link="BootstrapProgram.cs" />
+    <ProjectReference Include="..\..\src\FoxMouse.Deployment\FoxMouse.Deployment.csproj" />
+  </ItemGroup>
+</Project>

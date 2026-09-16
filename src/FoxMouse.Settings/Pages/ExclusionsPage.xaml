@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="FoxMouse.Settings.Pages.ExclusionsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModels="using:FoxMouse.Settings.ViewModels"
+    Background="Transparent"
+    Loaded="Page_Loaded"
+    mc:Ignorable="d">
+
+        <Grid
+            MaxWidth="1400"
+            Padding="32,24,32,40"
+            HorizontalAlignment="Stretch">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+                <StackPanel Margin="0,0,0,16" Spacing="4">
+                    <TextBlock x:Uid="ExclusionsPageString1" Style="{StaticResource TitleTextBlockStyle}" Text="排除的应用" />
+                    <TextBlock x:Uid="ExclusionsPageString2"
+                        Style="{StaticResource FoxMouseCaptionStyle}"
+                        Text="在指定应用位于前台时暂停 FoxMouse。按名称搜索正在运行的应用，然后添加。" />
+                </StackPanel>
+
+            <Grid Grid.Row="1" ColumnSpacing="16">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Border Style="{StaticResource FoxMouseCardStyle}">
+                    <Grid RowSpacing="12">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <TextBlock x:Uid="ExclusionsPageString3" Style="{StaticResource FoxMouseSectionTitleStyle}" Text="应用列表" />
+                        <AutoSuggestBox x:Uid="ExclusionsPageString4" Grid.Row="1"
+                            x:Name="ProcessSearchBox"
+                            Text="{Binding ProcessSearch, Mode=OneWay}"
+                            AutomationProperties.Name="搜索应用列表"
+                            PlaceholderText="搜索应用名、窗口标题或进程名"
+                            TextChanged="ProcessSearchBox_TextChanged">
+                            <AutoSuggestBox.QueryIcon><SymbolIcon Symbol="Find" /></AutoSuggestBox.QueryIcon>
+                        </AutoSuggestBox>
+                        <Grid Grid.Row="2" ColumnSpacing="8">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Button x:Uid="ExclusionsPageString5"
+                                Grid.Column="0"
+                                Click="Refresh_Click"
+                                Content="刷新"
+                                ToolTipService.ToolTip="重新扫描当前会话中的进程" />
+                            <Button x:Uid="ExclusionsPageString6"
+                                Grid.Column="1"
+                                Click="Browse_Click"
+                                Content="浏览其他应用…" />
+                        </Grid>
+
+                        <CheckBox x:Uid="ExclusionsPageString7"
+                            Grid.Row="3"
+                            AutomationProperties.Name="显示后台进程"
+                            Content="显示后台进程"
+                            IsChecked="{Binding IncludeBackgroundProcesses, Mode=TwoWay}" />
+
+                        <ProgressRing
+                            Grid.Row="0"
+                            Width="24"
+                            Height="24"
+                            HorizontalAlignment="Right"
+                            IsActive="{Binding IsBusy, Mode=OneWay}" />
+
+                        <ListView x:Uid="ExclusionsPageString8"
+                            Grid.Row="4"
+                            x:Name="RunningProcessesList"
+                            HorizontalContentAlignment="Stretch"
+                            AutomationProperties.Name="应用列表"
+                            ItemsSource="{Binding FilteredProcesses}">
+                            <ListView.ItemTemplate>
+                                <DataTemplate x:DataType="viewModels:RunningProcessItemViewModel">
+                                    <Grid Padding="4,7" ColumnSpacing="12">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="40" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+                                        <Border
+                                            Width="36"
+                                            Height="36"
+                                            Background="{ThemeResource AccentFillColorSecondaryBrush}"
+                                            CornerRadius="6">
+                                            <TextBlock
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                FontWeight="SemiBold"
+                                                Foreground="{ThemeResource TextOnAccentFillColorPrimaryBrush}"
+                                                Text="{x:Bind Monogram}" />
+                                        </Border>
+                                        <StackPanel Grid.Column="1" VerticalAlignment="Center" Spacing="1">
+                                            <TextBlock Text="{x:Bind DisplayName}" TextTrimming="CharacterEllipsis" />
+                                            <TextBlock
+                                                MaxWidth="560"
+                                                Style="{StaticResource FoxMouseCaptionStyle}"
+                                                Text="{x:Bind DetailLabel}"
+                                                TextWrapping="NoWrap"
+                                                TextTrimming="CharacterEllipsis" />
+                                        </StackPanel>
+                                        <Button
+                                            Grid.Column="2"
+                                            VerticalAlignment="Center"
+                                            Click="AddProcess_Click"
+                                            Content="{x:Bind ActionLabel, Mode=OneWay}"
+                                            IsEnabled="{x:Bind CanAdd, Mode=OneWay}"
+                                            Tag="{x:Bind}" />
+                                    </Grid>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+
+                    </Grid>
+                </Border>
+
+                <Border Grid.Column="1" Style="{StaticResource FoxMouseCardStyle}">
+                    <Grid RowSpacing="12">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <TextBlock x:Uid="ExclusionsPageString9" Style="{StaticResource FoxMouseSectionTitleStyle}" Text="已屏蔽" />
+                        <TextBlock
+                            HorizontalAlignment="Right"
+                            Style="{StaticResource FoxMouseCaptionStyle}"
+                            Text="{Binding BlockedSummary}" />
+                        <TextBox x:Uid="ExclusionsPageString10" Grid.Row="1" PlaceholderText="搜索已屏蔽应用"
+                            AutomationProperties.Name="搜索已屏蔽应用"
+                            Text="{Binding BlockedSearch, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                        <TextBlock x:Uid="ExclusionsPageString11" Grid.Row="2" Margin="4,12" Text="没有匹配的已屏蔽应用"
+                            Style="{StaticResource FoxMouseCaptionStyle}"
+                            Visibility="{Binding BlockedEmptyVisibility}" />
+                        <ListView x:Uid="ExclusionsPageString12"
+                            Grid.Row="2"
+                            HorizontalContentAlignment="Stretch"
+                            AutomationProperties.Name="已屏蔽"
+                            ItemsSource="{Binding FilteredExcludedProcesses}">
+                            <ListView.ItemTemplate>
+                                <DataTemplate x:DataType="viewModels:ExcludedProcessItemViewModel">
+                                    <Grid Padding="4,7" ColumnSpacing="12">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="40" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+                                        <Border
+                                            Width="36"
+                                            Height="36"
+                                            Background="{ThemeResource ControlFillColorSecondaryBrush}"
+                                            CornerRadius="6">
+                                            <TextBlock
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center"
+                                                FontWeight="SemiBold"
+                                                Text="{x:Bind Monogram}" />
+                                        </Border>
+                                        <StackPanel Grid.Column="1" VerticalAlignment="Center" Spacing="1">
+                                            <TextBlock Text="{x:Bind DisplayName}" TextTrimming="CharacterEllipsis" />
+                                            <TextBlock Style="{StaticResource FoxMouseCaptionStyle}" Text="{x:Bind ExecutableName}" TextTrimming="CharacterEllipsis" />
+                                        </StackPanel>
+                                        <Button x:Uid="ExclusionsPageString13"
+                                            Grid.Column="2"
+                                            VerticalAlignment="Center"
+                                            AutomationProperties.Name="移除排除项"
+                                            Click="RemoveProcess_Click"
+                                            Content="移除"
+                                            Tag="{x:Bind}" />
+                                    </Grid>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Grid>
+</Page>

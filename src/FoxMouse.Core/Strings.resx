@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="WaitExit" xml:space="preserve"><value>当前操作完成后将自动关闭，请勿结束进程。</value></data>
+  <data name="SetupTitle" xml:space="preserve"><value>FoxMouse 安装程序</value></data>
+  <data name="MaintenanceTitle" xml:space="preserve"><value>FoxMouse 维护</value></data>
+  <data name="Logo" xml:space="preserve"><value>FoxMouse 标志</value></data>
+  <data name="InstallLocation" xml:space="preserve"><value>安装位置</value></data>
+  <data name="InstallPath" xml:space="preserve"><value>安装路径</value></data>
+  <data name="Change" xml:space="preserve"><value>更改…</value></data>
+  <data name="ChooseParentHint" xml:space="preserve"><value>选择 FoxMouse 的安装父文件夹。</value></data>
+  <data name="LocationError" xml:space="preserve"><value>安装位置错误</value></data>
+  <data name="KeepSettings" xml:space="preserve"><value>卸载时保留个人设置和诊断日志</value></data>
+  <data name="KeepSettingsHint" xml:space="preserve"><value>清除勾选后，卸载会同时删除个人设置和诊断日志。</value></data>
+  <data name="CurrentStatusLabel" xml:space="preserve"><value>当前状态</value></data>
+  <data name="Install" xml:space="preserve"><value>安装</value></data>
+  <data name="Repair" xml:space="preserve"><value>修复</value></data>
+  <data name="Uninstall" xml:space="preserve"><value>卸载</value></data>
+  <data name="Close" xml:space="preserve"><value>关闭</value></data>
+  <data name="ConfirmUninstall" xml:space="preserve"><value>确认卸载</value></data>
+  <data name="Back" xml:space="preserve"><value>返回</value></data>
+  <data name="LocationUnsupported" xml:space="preserve"><value>当前安装服务不支持更改安装位置。</value></data>
+  <data name="LocationUpdated" xml:space="preserve"><value>安装位置已更新</value></data>
+  <data name="LocationUnchanged" xml:space="preserve"><value>安装位置未更改</value></data>
+  <data name="InstallHeading" xml:space="preserve"><value>安装 FoxMouse</value></data>
+  <data name="NotInstalled" xml:space="preserve"><value>FoxMouse 未安装</value></data>
+  <data name="NoInstallation" xml:space="preserve"><value>没有检测到可维护的 FoxMouse 安装。</value></data>
+  <data name="UpgradeHeading" xml:space="preserve"><value>升级 FoxMouse</value></data>
+  <data name="MaintainHeading" xml:space="preserve"><value>维护 FoxMouse</value></data>
+  <data name="LegacyUpgradeHint" xml:space="preserve"><value>检测到旧版安装。升级会迁移程序并保留个人设置。</value></data>
+  <data name="Upgrade" xml:space="preserve"><value>升级</value></data>
+  <data name="Ready" xml:space="preserve"><value>就绪</value></data>
+  <data name="UninstallDoneClosing" xml:space="preserve"><value>卸载已完成，安装程序即将关闭。</value></data>
+  <data name="DoneClosing" xml:space="preserve"><value>操作已完成，安装程序即将关闭。</value></data>
+  <data name="FailedRecovered" xml:space="preserve"><value>操作失败；已尝试恢复原状态。您可以重试或关闭此窗口。</value></data>
+  <data name="Installing" xml:space="preserve"><value>正在安装 FoxMouse，请勿关闭此窗口…</value></data>
+  <data name="Repairing" xml:space="preserve"><value>正在修复 FoxMouse，请勿关闭此窗口…</value></data>
+  <data name="Upgrading" xml:space="preserve"><value>正在升级 FoxMouse，请勿关闭此窗口…</value></data>
+  <data name="Uninstalling" xml:space="preserve"><value>正在卸载 FoxMouse，请勿关闭此窗口…</value></data>
+  <data name="Processing" xml:space="preserve"><value>正在处理，请勿关闭此窗口…</value></data>
+  <data name="OK" xml:space="preserve"><value>确定</value></data>
+  <data name="CloseWhenDone" xml:space="preserve"><value>完成后关闭</value></data>
+  <data name="Updated" xml:space="preserve"><value>已更新完成</value></data>
+  <data name="Installed" xml:space="preserve"><value>已安装完成</value></data>
+  <data name="ClickOKToClose" xml:space="preserve"><value>点击“确定”关闭安装程序。</value></data>
+  <data name="UninstallHeading" xml:space="preserve"><value>确认卸载 FoxMouse</value></data>
+  <data name="UninstallQuestion" xml:space="preserve"><value>卸载前会先安全恢复系统光标。是否继续？</value></data>
+  <data name="UninstallConfirmation" xml:space="preserve"><value>卸载确认</value></data>
+  <data name="OperationIncomplete" xml:space="preserve"><value>操作未完成</value></data>
+  <data name="OperationError" xml:space="preserve"><value>操作错误</value></data>
+  <data name="UnknownError" xml:space="preserve"><value>发生未知错误。请重试；如果问题持续出现，请打开诊断目录。</value></data>
+  <data name="ChooseParent" xml:space="preserve"><value>选择 FoxMouse 的安装父文件夹</value></data>
+  <data name="LocationChangeError" xml:space="preserve"><value>无法更改安装位置：{0}</value></data>
+  <data name="InstallVersion" xml:space="preserve"><value>安装 FoxMouse {0}。</value></data>
+  <data name="InstalledVersion" xml:space="preserve"><value>已安装 {0}，可修复或卸载。</value></data>
+  <data name="TrayMenu" xml:space="preserve"><value>FoxMouse 菜单</value></data>
+  <data name="EnableFoxMouse" xml:space="preserve"><value>启用 FoxMouse</value></data>
+  <data name="EnableHint" xml:space="preserve"><value>启用或暂停 FoxMouse</value></data>
+  <data name="PreviewEnlargement" xml:space="preserve"><value>预览放大效果</value></data>
+  <data name="PreviewHint" xml:space="preserve"><value>立即预览光标放大效果</value></data>
+  <data name="SettingsMenu" xml:space="preserve"><value>设置…</value></data>
+  <data name="OpenSettings" xml:space="preserve"><value>打开 FoxMouse 设置</value></data>
+  <data name="DiagnosticsMenu" xml:space="preserve"><value>打开诊断目录</value></data>
+  <data name="DiagnosticsHint" xml:space="preserve"><value>打开 FoxMouse 诊断日志目录</value></data>
+  <data name="AboutMenu" xml:space="preserve"><value>关于 FoxMouse</value></data>
+  <data name="AboutHint" xml:space="preserve"><value>查看 FoxMouse 版本信息</value></data>
+  <data name="Exit" xml:space="preserve"><value>退出</value></data>
+  <data name="ExitHint" xml:space="preserve"><value>安全退出 FoxMouse</value></data>
+  <data name="Starting" xml:space="preserve"><value>正在启动</value></data>
+  <data name="TrayStatus" xml:space="preserve"><value>FoxMouse 状态</value></data>
+  <data name="UnknownStatus" xml:space="preserve"><value>状态未知</value></data>
+  <data name="CurrentStatus" xml:space="preserve"><value>当前状态：{0}</value></data>
+  <data name="Status" xml:space="preserve"><value>状态：{0}</value></data>
+  <data name="Pause" xml:space="preserve"><value>暂停</value></data>
+  <data name="Enable" xml:space="preserve"><value>启用</value></data>
+  <data name="TrayHint" xml:space="preserve"><value>FoxMouse — 摇动鼠标以放大光标</value></data>
+  <data name="Exiting" xml:space="preserve"><value>FoxMouse — 正在安全恢复光标并退出</value></data>
+  <data name="StartupSaveError" xml:space="preserve"><value>无法更新开机启动设置，但其他设置已经保存。</value></data>
+  <data name="OperationSafeError" xml:space="preserve"><value>操作未能完成，FoxMouse 已保持在安全状态。</value></data>
+  <data name="SettingsDiskError" xml:space="preserve"><value>设置无法写入磁盘，本次运行仍会使用新设置。</value></data>
+  <data name="NativeActive" xml:space="preserve"><value>原生放大中</value></data>
+  <data name="RingActive" xml:space="preserve"><value>兼容定位中</value></data>
+  <data name="Paused" xml:space="preserve"><value>已暂停</value></data>
+  <data name="RingReady" xml:space="preserve"><value>定位环待命</value></data>
+  <data name="NativeRecovering" xml:space="preserve"><value>原生模式恢复中</value></data>
+  <data name="NativeUnavailable" xml:space="preserve"><value>原生模式暂不可用</value></data>
+  <data name="Enabled" xml:space="preserve"><value>已启用</value></data>
+  <data name="SettingsTitle" xml:space="preserve"><value>FoxMouse 设置</value></data>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <data name="SaveChanges" xml:space="preserve"><value>保存更改？</value></data>
+  <data name="UnsavedSettings" xml:space="preserve"><value>FoxMouse 设置尚未保存。</value></data>
+  <data name="SaveAndExit" xml:space="preserve"><value>保存并退出</value></data>
+  <data name="DontSave" xml:space="preserve"><value>不保存</value></data>
+  <data name="Cancel" xml:space="preserve"><value>取消</value></data>
+  <data name="Low" xml:space="preserve"><value>低</value></data>
+  <data name="Medium" xml:space="preserve"><value>中</value></data>
+  <data name="High" xml:space="preserve"><value>高</value></data>
+  <data name="Unknown" xml:space="preserve"><value>未知</value></data>
+  <data name="PreviewRequested" xml:space="preserve"><value>已请求 FoxMouse 预览放大效果</value></data>
+  <data name="PreviewReloadUnconfirmed" xml:space="preserve"><value>设置已保存，并已请求预览；后台未确认热重载</value></data>
+  <data name="PreviewNotRunning" xml:space="preserve"><value>FoxMouse 当前未运行，无法预览效果</value></data>
+  <data name="SavedApplied" xml:space="preserve"><value>已保存，并已应用到正在运行的 FoxMouse</value></data>
+  <data name="SavedNextStart" xml:space="preserve"><value>已保存；FoxMouse 未运行时将在下次启动后生效</value></data>
+  <data name="ChooseExe" xml:space="preserve"><value>请选择有效的 .exe 应用程序</value></data>
+  <data name="BlockedLimit" xml:space="preserve"><value>排除列表最多包含 128 个应用</value></data>
+  <data name="OneInstance" xml:space="preserve"><value>1 个实例</value></data>
+  <data name="Added" xml:space="preserve"><value>已添加</value></data>
+  <data name="Add" xml:space="preserve"><value>添加</value></data>
+  <data name="ReadSettingsError" xml:space="preserve"><value>无法读取设置：{0}</value></data>
+  <data name="RestoreSettingsError" xml:space="preserve"><value>无法恢复设置：{0}</value></data>
+  <data name="SaveError" xml:space="preserve"><value>保存失败：{0}</value></data>
+  <data name="SettingsSaveFailure" xml:space="preserve"><value>无法保存设置。请检查配置目录的写入权限和可用空间，然后重试。未保存的修改仍保留在此窗口中。错误代码：0x{0}</value></data>
+  <data name="AlreadyBlocked" xml:space="preserve"><value>{0} 已在排除列表中</value></data>
+  <data name="Instances" xml:space="preserve"><value>{0} 个实例</value></data>
+  <data name="RefreshProcessesError" xml:space="preserve"><value>无法刷新进程列表：{0}</value></data>
+  <data name="ChooseAppError" xml:space="preserve"><value>无法打开应用选择器：{0}</value></data>
+  <data name="PreviewError" xml:space="preserve"><value>无法预览放大效果：{0}</value></data>
+  <data name="VersionLabel" xml:space="preserve"><value>版本 {0}</value></data>
+  <data name="AppStartError" xml:space="preserve"><value>FoxMouse 无法启动：{0}</value></data>
+  <data name="PickerPlaceholder" xml:space="preserve"><value>应用名称、可执行文件或窗口标题</value></data>
+  <data name="PickerSearchName" xml:space="preserve"><value>搜索应用</value></data>
+  <data name="PickerSearchHint" xml:space="preserve"><value>按应用名称、可执行文件名或窗口标题筛选。</value></data>
+  <data name="PickerBackground" xml:space="preserve"><value>显示后台进程(&amp;B)</value></data>
+  <data name="PickerBackgroundHint" xml:space="preserve"><value>同时显示当前会话中没有可见主窗口的进程。</value></data>
+  <data name="PickerRefresh" xml:space="preserve"><value>刷新(&amp;R)</value></data>
+  <data name="PickerRefreshHint" xml:space="preserve"><value>重新读取当前会话中的进程。</value></data>
+  <data name="PickerApps" xml:space="preserve"><value>可排除的应用</value></data>
+  <data name="PickerAppsHint" xml:space="preserve"><value>选择一个或多个不希望 FoxMouse 生效的应用。</value></data>
+  <data name="PickerStatus" xml:space="preserve"><value>进程列表状态</value></data>
+  <data name="PickerBrowse" xml:space="preserve"><value>浏览未运行的程序(&amp;E)…</value></data>
+  <data name="PickerBrowseHint" xml:space="preserve"><value>从磁盘选择当前未运行的 EXE 程序。</value></data>
+  <data name="PickerAdd" xml:space="preserve"><value>添加所选(&amp;A)</value></data>
+  <data name="PickerTitle" xml:space="preserve"><value>选择要排除的应用</value></data>
+  <data name="PickerAppColumn" xml:space="preserve"><value>应用</value></data>
+  <data name="PickerExeColumn" xml:space="preserve"><value>可执行文件</value></data>
+  <data name="PickerWindowColumn" xml:space="preserve"><value>窗口标题</value></data>
+  <data name="PickerIntro" xml:space="preserve"><value>选择运行中的应用，或浏览磁盘上的 EXE。排除规则按可执行文件名保存。</value></data>
+  <data name="PickerIntroName" xml:space="preserve"><value>说明</value></data>
+  <data name="PickerSearch" xml:space="preserve"><value>搜索(&amp;S)</value></data>
+  <data name="PickerLoading" xml:space="preserve"><value>正在读取当前会话中的进程…</value></data>
+  <data name="PickerReadError" xml:space="preserve"><value>无法读取进程列表。可以重试或浏览 EXE。</value></data>
+  <data name="PickerEmpty" xml:space="preserve"><value>没有可添加的可见应用。可显示后台进程或浏览 EXE。</value></data>
+  <data name="PickerFilter" xml:space="preserve"><value>Windows 程序 (*.exe)|*.exe|所有文件 (*.*)|*.*</value></data>
+  <data name="PickerFileTitle" xml:space="preserve"><value>选择要排除的程序</value></data>
+  <data name="PickerInvalidExe" xml:space="preserve"><value>请选择有效的 Windows EXE 文件。</value></data>
+  <data name="PickerCount" xml:space="preserve"><value>{0} 个可添加的程序</value></data>
+  <data name="FallbackEnable" xml:space="preserve"><value>启用 FoxMouse(&amp;E)</value></data>
+  <data name="FallbackEnableHint" xml:space="preserve"><value>打开或关闭鼠标快速移动时的视觉效果。</value></data>
+  <data name="FallbackMode" xml:space="preserve"><value>显示模式</value></data>
+  <data name="FallbackModeHint" xml:space="preserve"><value>原生模式放大当前光标；定位环模式显示光标位置提示。</value></data>
+  <data name="FallbackSensitivity" xml:space="preserve"><value>摇动灵敏度</value></data>
+  <data name="FallbackSensitivityHint" xml:space="preserve"><value>数值越高，越容易通过快速来回移动触发效果。</value></data>
+  <data name="FallbackCurrentSensitivity" xml:space="preserve"><value>当前灵敏度</value></data>
+  <data name="FallbackScale" xml:space="preserve"><value>最大放大倍率</value></data>
+  <data name="FallbackScaleHint" xml:space="preserve"><value>可设置为原始光标的 1.5 到 6 倍。</value></data>
+  <data name="FallbackStartup" xml:space="preserve"><value>随 Windows 启动(&amp;W)</value></data>
+  <data name="FallbackStartupHint" xml:space="preserve"><value>登录 Windows 后在后台启动 FoxMouse。</value></data>
+  <data name="FallbackDragging" xml:space="preserve"><value>拖拽时暂停(&amp;D)</value></data>
+  <data name="FallbackDraggingHint" xml:space="preserve"><value>拖动文件或控件时不触发放大效果。</value></data>
+  <data name="FallbackFullscreen" xml:space="preserve"><value>全屏应用中暂停(&amp;F)</value></data>
+  <data name="FallbackFullscreenHint" xml:space="preserve"><value>游戏、视频和演示进入全屏时自动暂停。</value></data>
+  <data name="FallbackBlocked" xml:space="preserve"><value>已排除的应用</value></data>
+  <data name="FallbackBlockedHint" xml:space="preserve"><value>FoxMouse 不会在这些可执行程序中触发。</value></data>
+  <data name="FallbackAdd" xml:space="preserve"><value>添加应用(&amp;A)…</value></data>
+  <data name="FallbackAddHint" xml:space="preserve"><value>搜索当前运行的应用，或浏览磁盘上的 EXE。</value></data>
+  <data name="FallbackRemove" xml:space="preserve"><value>移除所选(&amp;R)</value></data>
+  <data name="FallbackBlockedCountName" xml:space="preserve"><value>排除应用数量</value></data>
+  <data name="FallbackSave" xml:space="preserve"><value>保存(&amp;S)</value></data>
+  <data name="FallbackSettingsHint" xml:space="preserve"><value>调整效果、触发行为和应用排除列表。</value></data>
+  <data name="FallbackNative" xml:space="preserve"><value>原生</value></data>
+  <data name="FallbackRing" xml:space="preserve"><value>定位环</value></data>
+  <data name="FallbackContent" xml:space="preserve"><value>设置内容</value></data>
+  <data name="FallbackModeLabel" xml:space="preserve"><value>显示模式(&amp;M)</value></data>
+  <data name="FallbackAppearance" xml:space="preserve"><value>外观</value></data>
+  <data name="FallbackSensitivityLabel" xml:space="preserve"><value>摇动灵敏度(&amp;I)</value></data>
+  <data name="FallbackScaleLabel" xml:space="preserve"><value>最大倍率(&amp;X)</value></data>
+  <data name="FallbackTriggerSection" xml:space="preserve"><value>触发与大小</value></data>
+  <data name="FallbackBehaviorSection" xml:space="preserve"><value>使用场景</value></data>
+  <data name="FallbackBlockedIntro" xml:space="preserve"><value>在以下应用中暂停 FoxMouse。排除规则仅保存 EXE 文件名。</value></data>
+  <data name="FallbackBlockedSection" xml:space="preserve"><value>应用排除</value></data>
+  <data name="FallbackActions" xml:space="preserve"><value>设置操作</value></data>
+  <data name="FallbackSaveHint" xml:space="preserve"><value>更改将在保存后生效</value></data>
+  <data name="FallbackPreviewHint" xml:space="preserve"><value>快速左右摇动鼠标时，平滑放大当前指针。</value></data>
+  <data name="FallbackLimit" xml:space="preserve"><value>最多可以排除 {0} 个程序。其余选择未添加。</value></data>
+  <data name="FallbackCurrentValue" xml:space="preserve"><value>当前为{0}，{1}%</value></data>
+  <data name="FallbackBlockedCount" xml:space="preserve"><value>已排除 {0} / {1} 个程序</value></data>
+</root>

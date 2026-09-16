@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.17763.0</TargetFramework>
+    <RootNamespace>FoxMouse.App</RootNamespace>
+    <AssemblyName>FoxMouse</AssemblyName>
+    <Product>FoxMouse</Product>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>..\..\assets\branding\generated\FoxMouse.ico</ApplicationIcon>
+    <RuntimeIdentifier Condition="'$(RuntimeIdentifier)' == ''">win-x64</RuntimeIdentifier>
+    <Platforms>x64</Platforms>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PublishTrimmed>false</PublishTrimmed>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FoxMouse.Core\FoxMouse.Core.csproj" />
+    <ProjectReference Include="..\FoxMouse.Platform.Windows\FoxMouse.Platform.Windows.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FoxMouse.Guard\FoxMouse.Guard.csproj" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\assets\branding\generated\FoxMouse.ico" LogicalName="FoxMouse.Branding.FoxMouse.ico" />
+    <EmbeddedResource Include="..\..\assets\branding\generated\FoxMouse.Dark.ico" LogicalName="FoxMouse.Branding.FoxMouse.Dark.ico" />
+    <EmbeddedResource Include="..\..\assets\branding\generated\FoxMouse.HighContrast.Black.ico" LogicalName="FoxMouse.Branding.FoxMouse.HighContrast.Black.ico" />
+    <EmbeddedResource Include="..\..\assets\branding\generated\FoxMouse.HighContrast.White.ico" LogicalName="FoxMouse.Branding.FoxMouse.HighContrast.White.ico" />
+    <EmbeddedResource Include="..\..\assets\branding\source\foxmouse-mark-color.png" LogicalName="FoxMouse.Branding.FoxMouse.Mark.Light.png" />
+    <EmbeddedResource Include="..\..\assets\branding\source\foxmouse-mark-dark.png" LogicalName="FoxMouse.Branding.FoxMouse.Mark.Dark.png" />
+    <EmbeddedResource Include="..\..\assets\branding\source\foxmouse-mark-mono-black.png" LogicalName="FoxMouse.Branding.FoxMouse.Mark.HighContrast.Black.png" />
+    <EmbeddedResource Include="..\..\assets\branding\source\foxmouse-mark-mono-white.png" LogicalName="FoxMouse.Branding.FoxMouse.Mark.HighContrast.White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\assets\branding\branding-manifest.json" Link="Assets\Branding\branding-manifest.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="..\..\assets\branding\source\**\*" Link="Assets\Branding\source\%(RecursiveDir)%(Filename)%(Extension)">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="..\..\assets\branding\generated\**\*" Link="Assets\Branding\generated\%(RecursiveDir)%(Filename)%(Extension)">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="FoxMouse.Settings.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="FoxMouse 设置"
+    mc:Ignorable="d">
+
+    <Grid x:Name="RootGrid">
+        <Border
+            x:Name="FallbackBackground"
+            Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" />
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="48" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <TitleBar
+                x:Name="AppTitleBar"
+                Title="FoxMouse"
+                IsBackButtonVisible="False"
+                IsPaneToggleButtonVisible="True"
+                PaneToggleRequested="TitleBar_PaneToggleRequested" />
+
+            <NavigationView
+                x:Name="NavView"
+                Grid.Row="1"
+                Background="Transparent"
+                IsBackButtonVisible="Collapsed"
+                IsPaneToggleButtonVisible="False"
+                IsSettingsVisible="False"
+                PaneDisplayMode="Auto"
+                SelectionChanged="NavView_SelectionChanged">
+                <NavigationView.MenuItems>
+                    <NavigationViewItem x:Uid="MainWindowString2" Content="常规" Tag="general">
+                        <NavigationViewItem.Icon>
+                            <FontIcon Glyph="&#xE713;" />
+                        </NavigationViewItem.Icon>
+                    </NavigationViewItem>
+                    <NavigationViewItem x:Uid="MainWindowString3" Content="排除的应用" Tag="exclusions">
+                        <NavigationViewItem.Icon>
+                            <FontIcon Glyph="&#xE8D7;" />
+                        </NavigationViewItem.Icon>
+                    </NavigationViewItem>
+                    <NavigationViewItem x:Uid="MainWindowString4" Content="关于" Tag="about">
+                        <NavigationViewItem.Icon>
+                            <FontIcon Glyph="&#xE946;" />
+                        </NavigationViewItem.Icon>
+                    </NavigationViewItem>
+                </NavigationView.MenuItems>
+
+                <Frame x:Name="ContentFrame" />
+            </NavigationView>
+
+            <Border
+                Grid.Row="2"
+                Background="{ThemeResource SolidBackgroundFillColorBaseBrush}"
+                BorderBrush="{ThemeResource DividerStrokeColorDefaultBrush}"
+                BorderThickness="0,1,0,0"
+                Padding="20,12">
+                <Grid ColumnSpacing="12">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+
+                    <InfoBar
+                        x:Name="StatusInfoBar"
+                        IsClosable="{Binding IsStatusClosable, Mode=OneWay}"
+                        IsOpen="{Binding HasStatus, Mode=OneWay}"
+                        Message="{Binding StatusMessage, Mode=OneWay}"
+                        Severity="{Binding StatusSeverity, Mode=OneWay}" />
+                    <Button x:Uid="MainWindowString5"
+                        Grid.Column="1"
+                        Click="Revert_Click"
+                        Content="撤销更改"
+                        IsEnabled="{Binding CanSave, Mode=OneWay}" />
+                    <Button x:Uid="MainWindowString6"
+                        Grid.Column="2"
+                        Click="Save_Click"
+                        Content="保存"
+                        IsEnabled="{Binding CanSave, Mode=OneWay}"
+                        Style="{StaticResource AccentButtonStyle}" />
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>

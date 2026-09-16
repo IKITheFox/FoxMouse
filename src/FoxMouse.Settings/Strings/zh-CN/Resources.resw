@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="GeneralPageString10.OnContent" xml:space="preserve"><value>开</value></data>
+  <data name="GeneralPageString10.OffContent" xml:space="preserve"><value>关</value></data>
+  <data name="GeneralPageString28.OnContent" xml:space="preserve"><value>开</value></data>
+  <data name="GeneralPageString28.OffContent" xml:space="preserve"><value>关</value></data>
+  <data name="GeneralPageString31.OnContent" xml:space="preserve"><value>开</value></data>
+  <data name="GeneralPageString31.OffContent" xml:space="preserve"><value>关</value></data>
+  <data name="GeneralPageString34.OnContent" xml:space="preserve"><value>开</value></data>
+  <data name="GeneralPageString34.OffContent" xml:space="preserve"><value>关</value></data>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <data name="GeneralPageString1.Text" xml:space="preserve"><value>常规</value></data>
+  <data name="GeneralPageString2.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve"><value>保存后重新打开设置以应用语言。</value></data>
+  <data name="GeneralPageString3.Text" xml:space="preserve"><value>界面语言</value></data>
+  <data name="GeneralPageString4.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>界面语言</value></data>
+  <data name="GeneralPageString5.Content" xml:space="preserve"><value>跟随系统</value></data>
+  <data name="GeneralPageString6.Content" xml:space="preserve"><value>简体中文</value></data>
+  <data name="GeneralPageString7.Text" xml:space="preserve"><value>光标效果</value></data>
+  <data name="GeneralPageString8.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve"><value>快速左右摇动鼠标时，平滑放大当前指针。</value></data>
+  <data name="GeneralPageString9.Text" xml:space="preserve"><value>启用 FoxMouse</value></data>
+  <data name="GeneralPageString10.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.HelpText" xml:space="preserve"><value>快速左右摇动鼠标时，平滑放大当前指针。</value></data>
+  <data name="GeneralPageString10.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>启用 FoxMouse</value></data>
+  <data name="GeneralPageString11.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve"><value>原生模式放大当前光标；定位环模式显示光标位置提示。</value></data>
+  <data name="GeneralPageString12.Text" xml:space="preserve"><value>显示模式</value></data>
+  <data name="GeneralPageString13.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.HelpText" xml:space="preserve"><value>原生模式放大当前光标；定位环模式显示光标位置提示。</value></data>
+  <data name="GeneralPageString13.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>显示模式</value></data>
+  <data name="GeneralPageString14.Content" xml:space="preserve"><value>原生</value></data>
+  <data name="GeneralPageString15.Content" xml:space="preserve"><value>定位环</value></data>
+  <data name="GeneralPageString16.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve"><value>数值越高，越容易通过快速来回移动触发效果。</value></data>
+  <data name="GeneralPageString17.Text" xml:space="preserve"><value>摇动灵敏度</value></data>
+  <data name="GeneralPageString18.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.HelpText" xml:space="preserve"><value>数值越高，越容易通过快速来回移动触发效果。</value></data>
+  <data name="GeneralPageString18.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>摇动灵敏度</value></data>
+  <data name="GeneralPageString19.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve"><value>可设置为原始光标的 1.5 到 6 倍。</value></data>
+  <data name="GeneralPageString20.Text" xml:space="preserve"><value>最大放大倍率</value></data>
+  <data name="GeneralPageString21.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.HelpText" xml:space="preserve"><value>可设置为原始光标的 1.5 到 6 倍。</value></data>
+  <data name="GeneralPageString21.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>最大放大倍率</value></data>
+  <data name="GeneralPageString22.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve"><value>立即在当前鼠标位置演示一次放大效果。</value></data>
+  <data name="GeneralPageString23.Text" xml:space="preserve"><value>预览效果</value></data>
+  <data name="GeneralPageString24.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.HelpText" xml:space="preserve"><value>立即在当前鼠标位置演示一次放大效果。</value></data>
+  <data name="GeneralPageString24.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>预览放大效果</value></data>
+  <data name="GeneralPageString24.Content" xml:space="preserve"><value>预览放大效果</value></data>
+  <data name="GeneralPageString25.Text" xml:space="preserve"><value>行为</value></data>
+  <data name="GeneralPageString26.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve"><value>登录 Windows 后在后台启动 FoxMouse。</value></data>
+  <data name="GeneralPageString27.Text" xml:space="preserve"><value>随 Windows 启动</value></data>
+  <data name="GeneralPageString28.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.HelpText" xml:space="preserve"><value>登录 Windows 后在后台启动 FoxMouse。</value></data>
+  <data name="GeneralPageString28.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>随 Windows 启动</value></data>
+  <data name="GeneralPageString29.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve"><value>拖动文件或控件时不触发放大效果。</value></data>
+  <data name="GeneralPageString30.Text" xml:space="preserve"><value>拖拽时暂停</value></data>
+  <data name="GeneralPageString31.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.HelpText" xml:space="preserve"><value>拖动文件或控件时不触发放大效果。</value></data>
+  <data name="GeneralPageString31.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>拖拽时暂停</value></data>
+  <data name="GeneralPageString32.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve"><value>游戏、视频和演示进入全屏时自动暂停。</value></data>
+  <data name="GeneralPageString33.Text" xml:space="preserve"><value>全屏应用中暂停</value></data>
+  <data name="GeneralPageString34.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.HelpText" xml:space="preserve"><value>游戏、视频和演示进入全屏时自动暂停。</value></data>
+  <data name="GeneralPageString34.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>全屏应用中暂停</value></data>
+  <data name="MainWindowString1.Title" xml:space="preserve"><value>FoxMouse 设置</value></data>
+  <data name="MainWindowString2.Content" xml:space="preserve"><value>常规</value></data>
+  <data name="MainWindowString3.Content" xml:space="preserve"><value>排除的应用</value></data>
+  <data name="MainWindowString4.Content" xml:space="preserve"><value>关于</value></data>
+  <data name="MainWindowString5.Content" xml:space="preserve"><value>撤销更改</value></data>
+  <data name="MainWindowString6.Content" xml:space="preserve"><value>保存</value></data>
+  <data name="AboutPageString1.Text" xml:space="preserve"><value>版本</value></data>
+  <data name="ExclusionsPageString1.Text" xml:space="preserve"><value>排除的应用</value></data>
+  <data name="ExclusionsPageString2.Text" xml:space="preserve"><value>在指定应用位于前台时暂停 FoxMouse。按名称搜索正在运行的应用，然后添加。</value></data>
+  <data name="ExclusionsPageString3.Text" xml:space="preserve"><value>应用列表</value></data>
+  <data name="ExclusionsPageString4.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>搜索应用列表</value></data>
+  <data name="ExclusionsPageString4.PlaceholderText" xml:space="preserve"><value>搜索应用名、窗口标题或进程名</value></data>
+  <data name="ExclusionsPageString5.Content" xml:space="preserve"><value>刷新</value></data>
+  <data name="ExclusionsPageString5.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve"><value>重新扫描当前会话中的进程</value></data>
+  <data name="ExclusionsPageString6.Content" xml:space="preserve"><value>浏览其他应用…</value></data>
+  <data name="ExclusionsPageString7.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>显示后台进程</value></data>
+  <data name="ExclusionsPageString7.Content" xml:space="preserve"><value>显示后台进程</value></data>
+  <data name="ExclusionsPageString8.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>应用列表</value></data>
+  <data name="ExclusionsPageString9.Text" xml:space="preserve"><value>已屏蔽</value></data>
+  <data name="ExclusionsPageString10.PlaceholderText" xml:space="preserve"><value>搜索已屏蔽应用</value></data>
+  <data name="ExclusionsPageString10.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>搜索已屏蔽应用</value></data>
+  <data name="ExclusionsPageString11.Text" xml:space="preserve"><value>没有匹配的已屏蔽应用</value></data>
+  <data name="ExclusionsPageString12.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>已屏蔽</value></data>
+  <data name="ExclusionsPageString13.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>移除排除项</value></data>
+  <data name="ExclusionsPageString13.Content" xml:space="preserve"><value>移除</value></data>
+</root>

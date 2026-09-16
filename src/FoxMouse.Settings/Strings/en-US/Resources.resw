@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="GeneralPageString10.OnContent" xml:space="preserve"><value>On</value></data>
+  <data name="GeneralPageString10.OffContent" xml:space="preserve"><value>Off</value></data>
+  <data name="GeneralPageString28.OnContent" xml:space="preserve"><value>On</value></data>
+  <data name="GeneralPageString28.OffContent" xml:space="preserve"><value>Off</value></data>
+  <data name="GeneralPageString31.OnContent" xml:space="preserve"><value>On</value></data>
+  <data name="GeneralPageString31.OffContent" xml:space="preserve"><value>Off</value></data>
+  <data name="GeneralPageString34.OnContent" xml:space="preserve"><value>On</value></data>
+  <data name="GeneralPageString34.OffContent" xml:space="preserve"><value>Off</value></data>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <data name="GeneralPageString1.Text" xml:space="preserve"><value>General</value></data>
+  <data name="GeneralPageString2.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve"><value>Save and reopen Settings to apply the language.</value></data>
+  <data name="GeneralPageString3.Text" xml:space="preserve"><value>Display language</value></data>
+  <data name="GeneralPageString4.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Display language</value></data>
+  <data name="GeneralPageString5.Content" xml:space="preserve"><value>System default</value></data>
+  <data name="GeneralPageString6.Content" xml:space="preserve"><value>简体中文</value></data>
+  <data name="GeneralPageString7.Text" xml:space="preserve"><value>Cursor effect</value></data>
+  <data name="GeneralPageString8.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve"><value>Smoothly enlarge the current pointer when you shake the mouse from side to side.</value></data>
+  <data name="GeneralPageString9.Text" xml:space="preserve"><value>Enable FoxMouse</value></data>
+  <data name="GeneralPageString10.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.HelpText" xml:space="preserve"><value>Smoothly enlarge the current pointer when you shake the mouse from side to side.</value></data>
+  <data name="GeneralPageString10.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Enable FoxMouse</value></data>
+  <data name="GeneralPageString11.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve"><value>Native enlarges the current cursor; Locator ring highlights its location.</value></data>
+  <data name="GeneralPageString12.Text" xml:space="preserve"><value>Display mode</value></data>
+  <data name="GeneralPageString13.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.HelpText" xml:space="preserve"><value>Native enlarges the current cursor; Locator ring highlights its location.</value></data>
+  <data name="GeneralPageString13.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Display mode</value></data>
+  <data name="GeneralPageString14.Content" xml:space="preserve"><value>Native</value></data>
+  <data name="GeneralPageString15.Content" xml:space="preserve"><value>Locator ring</value></data>
+  <data name="GeneralPageString16.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve"><value>Higher sensitivity makes the effect easier to trigger by shaking the mouse.</value></data>
+  <data name="GeneralPageString17.Text" xml:space="preserve"><value>Shake sensitivity</value></data>
+  <data name="GeneralPageString18.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.HelpText" xml:space="preserve"><value>Higher sensitivity makes the effect easier to trigger by shaking the mouse.</value></data>
+  <data name="GeneralPageString18.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Shake sensitivity</value></data>
+  <data name="GeneralPageString19.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve"><value>Choose a scale from 1.5 to 6 times the original cursor size.</value></data>
+  <data name="GeneralPageString20.Text" xml:space="preserve"><value>Maximum scale</value></data>
+  <data name="GeneralPageString21.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.HelpText" xml:space="preserve"><value>Choose a scale from 1.5 to 6 times the original cursor size.</value></data>
+  <data name="GeneralPageString21.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Maximum scale</value></data>
+  <data name="GeneralPageString22.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve"><value>Preview the enlargement at the current mouse position.</value></data>
+  <data name="GeneralPageString23.Text" xml:space="preserve"><value>Preview</value></data>
+  <data name="GeneralPageString24.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.HelpText" xml:space="preserve"><value>Preview the enlargement at the current mouse position.</value></data>
+  <data name="GeneralPageString24.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Preview enlargement</value></data>
+  <data name="GeneralPageString24.Content" xml:space="preserve"><value>Preview enlargement</value></data>
+  <data name="GeneralPageString25.Text" xml:space="preserve"><value>Behavior</value></data>
+  <data name="GeneralPageString26.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve"><value>Start FoxMouse in the background when you sign in to Windows.</value></data>
+  <data name="GeneralPageString27.Text" xml:space="preserve"><value>Start with Windows</value></data>
+  <data name="GeneralPageString28.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.HelpText" xml:space="preserve"><value>Start FoxMouse in the background when you sign in to Windows.</value></data>
+  <data name="GeneralPageString28.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Start with Windows</value></data>
+  <data name="GeneralPageString29.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve"><value>Pause enlargement while dragging files or controls.</value></data>
+  <data name="GeneralPageString30.Text" xml:space="preserve"><value>Pause while dragging</value></data>
+  <data name="GeneralPageString31.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.HelpText" xml:space="preserve"><value>Pause enlargement while dragging files or controls.</value></data>
+  <data name="GeneralPageString31.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Pause while dragging</value></data>
+  <data name="GeneralPageString32.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve"><value>Pause automatically in full-screen games, videos and presentations.</value></data>
+  <data name="GeneralPageString33.Text" xml:space="preserve"><value>Pause in full-screen apps</value></data>
+  <data name="GeneralPageString34.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.HelpText" xml:space="preserve"><value>Pause automatically in full-screen games, videos and presentations.</value></data>
+  <data name="GeneralPageString34.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Pause in full-screen apps</value></data>
+  <data name="MainWindowString1.Title" xml:space="preserve"><value>FoxMouse Settings</value></data>
+  <data name="MainWindowString2.Content" xml:space="preserve"><value>General</value></data>
+  <data name="MainWindowString3.Content" xml:space="preserve"><value>App exclusions</value></data>
+  <data name="MainWindowString4.Content" xml:space="preserve"><value>About</value></data>
+  <data name="MainWindowString5.Content" xml:space="preserve"><value>Revert changes</value></data>
+  <data name="MainWindowString6.Content" xml:space="preserve"><value>Save</value></data>
+  <data name="AboutPageString1.Text" xml:space="preserve"><value>Version</value></data>
+  <data name="ExclusionsPageString1.Text" xml:space="preserve"><value>App exclusions</value></data>
+  <data name="ExclusionsPageString2.Text" xml:space="preserve"><value>Pause FoxMouse when a blocked app is in the foreground. Find an app and add it below.</value></data>
+  <data name="ExclusionsPageString3.Text" xml:space="preserve"><value>App list</value></data>
+  <data name="ExclusionsPageString4.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Search app list</value></data>
+  <data name="ExclusionsPageString4.PlaceholderText" xml:space="preserve"><value>Search app, window title or process</value></data>
+  <data name="ExclusionsPageString5.Content" xml:space="preserve"><value>Refresh</value></data>
+  <data name="ExclusionsPageString5.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve"><value>Rescan processes in the current session</value></data>
+  <data name="ExclusionsPageString6.Content" xml:space="preserve"><value>Browse apps…</value></data>
+  <data name="ExclusionsPageString7.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Show background processes</value></data>
+  <data name="ExclusionsPageString7.Content" xml:space="preserve"><value>Show background processes</value></data>
+  <data name="ExclusionsPageString8.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>App list</value></data>
+  <data name="ExclusionsPageString9.Text" xml:space="preserve"><value>Blocked</value></data>
+  <data name="ExclusionsPageString10.PlaceholderText" xml:space="preserve"><value>Search blocked apps</value></data>
+  <data name="ExclusionsPageString10.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Search blocked apps</value></data>
+  <data name="ExclusionsPageString11.Text" xml:space="preserve"><value>No matching blocked apps</value></data>
+  <data name="ExclusionsPageString12.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Blocked</value></data>
+  <data name="ExclusionsPageString13.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve"><value>Remove blocked app</value></data>
+  <data name="ExclusionsPageString13.Content" xml:space="preserve"><value>Remove</value></data>
+</root>
